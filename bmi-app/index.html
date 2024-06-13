@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    
+    <!-- <div id="app"></div> -->
+    
+    <div class="container" >
+
+      <h1 class="heading">Body Mass Index Calculator</h1>
+      
+      <div>
+        <label for="">Your Height (cm) :</label>
+        <input type="number" class="input" id="height" value="180" placeholder="Enter your height in cm">
+      </div>
+      
+      <div>
+        <label for="">Your Weight (kg) :</label>
+        <input type="number" class="input" id="weight" value="80" placeholder="Enter your weight in kg">
+      </div>
+
+      <button class="btn" id="btn">Compute</button>
+      
+      <div>
+        <input disabled type="text" class="input" id="bmi-result">
+      </div>
+      
+      <h4 class="info-text">Weight Condition : <span id="weight-condition"></span></h4>
+    
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
